@@ -1,0 +1,193 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.left
+{
+    float: right;
+}
+.collapse
+{
+    float: right;
+}
+.pdd
+{
+    padding-left: 15px;
+    padding-right:15px;
+}
+.opac
+{
+    opacity: 0.9;
+}
+.fnt
+{
+    font-size: 1.1em;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: 0.3s;
+}
+.bgimg{
+    background-image:url(../images/astronomy-constellation-dark-998641.jpg);
+/*    background:linear-gradient(black,#414345);*/
+/*    background-color:grey;*/
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+
+}
+.index
+{
+    z-index: 12;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    color: white;
+    
+    
+}
+.index h1 {
+    
+    font-size: 5em;
+}
+.index p{
+    
+    font-size: 1.5em;
+}
+.bd
+{
+    border-top: 2px dotted;
+    border-bottom: 2px dotted;
+    padding: 25px;
+    height: 200px;
+    text-align: center;
+    
+}
+.img
+{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.box
+{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-top: 60px;
+}
+.lnk
+{
+    display: inline;
+/*    height: 40px;*/
+    
+}
+.logo
+{
+    font-size: 60px; color: lightgrey; padding: 20px;
+    
+}
+.line
+{
+    border-top: 2px solid #f5ab35;
+}
+.big a 
+{
+    font-size: 60px;
+    color: darkgrey;
+}
+.back{
+    background-image: url(../images/abstract-attractive-backdrop-988872.jpg)
+}
+.skills
+{
+/*    background-image: url(../images/abstract-ancient-antique-235985.jpg);*/
+    background-size: 100% 100%;
+    
+}
+.img:hover
+{
+/*    height: 200px;*/
+/*    width: 200px;*/
+    border-radius: 50%;
+    transform: scale(1.2);
+    
+    
+}
+.fnt:hover
+{
+    background-color: black;
+    
+}
+.skill
+{
+  
+  
+    height: 100%;
+    width: 100%;
+}
+.dark
+{
+     background:linear-gradient(black,#414345);
+}
+.fc
+{
+    color: white;
+}
+.padd 
+{
+    padding: 20px;
+}
+.padd li
+{
+    padding: 22px;
+    font-size: 1.5em;
+    list-style-image: url(../images/Ellipse%201.png);
+}
+#about
+{
+    height: 100%;
+    width: 100%;
+    
+}
+.fnm
+{
+    font-size: 1.3em;
+    font-family: 'Source Code Pro', monospace;
+    
+}
+.marg
+{
+    padding-top: 40px;
+/*    padding-bottom: 40px;*/
+}
+.quo
+{
+  color: #fabe58;
+    height: 100%;
+    width: 100%;
+/*    padding: 40px;*/
+    margin-top: 60px;
+    
+}
+.blockquote
+{
+    font-size: 1.9em !important;
+    font-family: 'Charmonman', cursive !important;
+}
+.image
+{
+    height: 100%;
+    width: 100%;
+    
+}
+.fmm
+{
+    font-family: 'Lora', serif;
+}
+
+
+
